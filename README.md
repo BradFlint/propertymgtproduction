@@ -13,3 +13,6 @@ To set up the website:
 	`rails db:seed`
 3. Run
 	`rails s`
+
+landlord log in: brad@gmail.com password: 123456
+tennnant log in: john@gmail.com password: johnny1

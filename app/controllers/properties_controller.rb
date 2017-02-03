@@ -23,7 +23,6 @@ class PropertiesController < ApplicationController
     end
 
 	def show
-
   	end
 
 	def create
@@ -41,17 +40,16 @@ class PropertiesController < ApplicationController
 		redirect_to properties_apply_path
 	end
 
-   def apply
-		
-   end
+	def apply	
+	end
 
-   def edit
-   	@property = Property.find(params[:id])
-   end
+	def edit
+	   	@property = Property.find(params[:id])
+	end
 
-   def destroy
-	    Property.find(params[:id]).destroy
-	    redirect_to properties_all_path
+	def destroy
+	     Property.find(params[:id]).destroy
+		 redirect_to properties_all_path
 	end
 
 	def update
