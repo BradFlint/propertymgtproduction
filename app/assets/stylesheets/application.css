@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body{
- 	background-image: url('/assets/greencraftsman.jpg');
+ 	background: url("/assets/greencraftsman.jpg");
  	background-size: cover;
  	background-repeat: no-repeat;
  	font-family: Raleway;
@@ -20,7 +20,7 @@ header{
 }
 
 .logo{
-	width: 500px;
+	width: 225px;
 	margin-left: 5%;
 	position: relative;
     top: -98px;
