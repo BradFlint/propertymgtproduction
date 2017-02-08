@@ -6,7 +6,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '8158ee848a2e2a72aa29b963f0bb07e8c8b48d3a6da34fe90da97521db70c38de0b1951e1b5a6b0f72ad68d0f7750970f4345d82926476a6edc8fac539731aee'
+  config.secret_key = '78bb9aaf44b197c6b0ec83a938e500adb7e1beb5443d1f66337feaf6825f8af768b4446d28b8e29eb547696e57e2d3b06b86d4785de8f2d6343a123e49ea1282'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -25,6 +25,8 @@ Devise.setup do |config|
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
   # available as additional gems.
   require 'devise/orm/active_record'
+
+
 
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
